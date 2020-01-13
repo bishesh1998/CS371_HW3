@@ -10,7 +10,7 @@ namespace HW2_Ex1
     class Shape : IComparable
     {
         private string color;
-        private double parameter;
+        protected double parameter;
 
         public int CompareTo(object obj)
         {
@@ -23,7 +23,7 @@ namespace HW2_Ex1
 
             if (otherShape != null)
             {
-                return this.parameter.CompareTo(otherShape.parameter);
+                return this.parameter_value.CompareTo(otherShape.parameter_value);
             }
             else
             {

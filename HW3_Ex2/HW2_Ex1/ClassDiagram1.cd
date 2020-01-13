@@ -3,10 +3,11 @@
   <Class Name="HW2_Ex1.Shape" Collapsed="true">
     <Position X="6.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAACAAAA=</HashCode>
+      <HashCode>AAAQAAAAAAAAAAQAAAAAAAAEAAAAAADAEAAAAAAAAAA=</HashCode>
       <FileName>Shape.cs</FileName>
       <NewMemberFileName>shape.cs</NewMemberFileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW2_Ex1.EqPolygon" Collapsed="true">
     <Position X="8" Y="2.75" Width="1.5" />

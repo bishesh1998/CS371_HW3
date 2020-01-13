@@ -17,46 +17,25 @@ namespace HW2_Ex1
     {
         static void Main(string[] args)
         {
-            /*
-            string rad, len; //user input 
-            double r, l; //conversion of user input
-            Console.Write("Enter the radiusa of the cricle : ");
-            rad = Console.ReadLine();
-            r = Convert.ToDouble(rad);
-            Console.Write("Enter the length of the sqaure :");
-            len = Console.ReadLine();
-            l = Convert.ToDouble(len);
-
-            Circle C1 = new Circle(r, "Green"); //generating new Circle
-            Square S1 = new Square(l); //generating new Square
-            
-            Console.Write("Parameter of the Cirlce : ");
-            Console.WriteLine(C1.getparameter()); //calculating the parameter of Cirlce
-            Console.Write("Parameter of the Square : ");
-            Console.WriteLine(S1.getparameter()); //calculating the parameter of Square
-
-            //Comparing the two parameters
-            if (C1.CompareTo(S1) > 0) //condition for circle being greater
-            {
-                Console.WriteLine("Circle has greater parameter than Square.");
-            }
-            else if (C1.CompareTo(S1) < 0) //condition for square being greater
-            {
-                Console.WriteLine("Square has greater parameter than Circle");
-            }
-            else //condition for both being equal
-            {
-                Console.WriteLine("Both Shapes has same parameters.");
-            }
-            */
 
             Shapes Toy = new Shapes();
+            int c = 0;
 
-            foreach (Triangle T in Toy)
+            Console.WriteLine("Counting Square in the toys");
+            foreach (Shape T in Toy)
             {
-                Console.WriteLine("testing...");
+                c++;
+                Console.WriteLine("Square Counter : {0}", c);
             }
+            Console.WriteLine();
 
+            ComparableShapes Blocks = new ComparableShapes();
+
+            Console.WriteLine("Comparing the blocks.");
+            foreach (Square S in Blocks)
+            {
+                //Console.WriteLine("testing");
+            }
 
         }
     }

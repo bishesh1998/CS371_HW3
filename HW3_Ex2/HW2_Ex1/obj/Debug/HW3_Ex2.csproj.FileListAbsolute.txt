@@ -1,2 +1,6 @@
 D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\obj\Debug\HW2_Ex1.exe
 D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\obj\Debug\HW2_Ex1.pdb
+D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\bin\Debug\HW2_Ex1.exe.config
+D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\bin\Debug\HW2_Ex1.exe
+D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\bin\Debug\HW2_Ex1.pdb
+D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\obj\Debug\HW3_Ex2.csprojAssemblyReference.cache

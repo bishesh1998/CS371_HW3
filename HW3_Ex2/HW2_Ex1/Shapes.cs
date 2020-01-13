@@ -7,19 +7,25 @@ using System.Collections;
 
 namespace HW2_Ex1
 {
-    public interface IEnumerable
-    {
-        IEnumerator GetEnumerator();
-    }
-
+ 
     class Shapes : IEnumerable
     {
         private Circle[] cirlceArray = new Circle[3];
         private Square[] squareArray = new Square[2];
         private Triangle[] triangleArray = new Triangle[4];
 
+        
+        public IEnumerator GetEnumerator()
+        {
+            foreach (Square S in squareArray)
+            {
+                yield return S;
+            }
+        }
+ 
         public Shapes()
         {
+
             cirlceArray[0] = new Circle(10,"Red");
             cirlceArray[1] = new Circle(7, "Blue");
             cirlceArray[2] = new Circle(21, "Yellow");
@@ -31,6 +37,7 @@ namespace HW2_Ex1
             triangleArray[1] = new Triangle(6, "Purple");
             triangleArray[2] = new Triangle(7, "Orange");
             triangleArray[3] = new Triangle(8, "Brown");
+
         }
     }
 }
