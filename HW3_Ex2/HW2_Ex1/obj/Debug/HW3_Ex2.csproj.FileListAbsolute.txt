@@ -1,0 +1,2 @@
+D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\obj\Debug\HW2_Ex1.exe
+D:\Classes\Windows Application Development\HW3\HW3_Ex2\HW2_Ex1\obj\Debug\HW2_Ex1.pdb
