@@ -1,0 +1,6 @@
+C:\Users\Bishesh\source\repos\HW3_Ex3\HW3_Ex3\bin\Debug\HW3_Ex3.exe.config
+C:\Users\Bishesh\source\repos\HW3_Ex3\HW3_Ex3\bin\Debug\HW3_Ex3.exe
+C:\Users\Bishesh\source\repos\HW3_Ex3\HW3_Ex3\bin\Debug\HW3_Ex3.pdb
+C:\Users\Bishesh\source\repos\HW3_Ex3\HW3_Ex3\obj\Debug\HW3_Ex3.csprojAssemblyReference.cache
+C:\Users\Bishesh\source\repos\HW3_Ex3\HW3_Ex3\obj\Debug\HW3_Ex3.exe
+C:\Users\Bishesh\source\repos\HW3_Ex3\HW3_Ex3\obj\Debug\HW3_Ex3.pdb
