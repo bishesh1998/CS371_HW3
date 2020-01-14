@@ -1,7 +1,0 @@
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\bin\Debug\HW3_EX_03.exe.config
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\bin\Debug\HW3_EX_03.exe
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\bin\Debug\HW3_EX_03.pdb
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\obj\Debug\HW3_EX_03.csprojAssemblyReference.cache
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\obj\Debug\HW3_EX_03.csproj.CoreCompileInputs.cache
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\obj\Debug\HW3_EX_03.exe
-C:\Users\Pukar\source\repos\HW3_EX_03\HW3_EX_03\obj\Debug\HW3_EX_03.pdb
