@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace HW3_Ex3
 {
+    //Vampire class inheritance from person class
     class Vampire : Person
     {
+        //default Constrcutor
         public Vampire() { }
+        //Constructor
         public Vampire(string nomen) : base(nomen) { }
 
+        //Speak method
+        //Returns new object vampire
+        //Adds the new name of the person as well
         public override Person speak()
         {
             Console.WriteLine("Ssssssss! <Bite!> <Bite!> <Bite!>");

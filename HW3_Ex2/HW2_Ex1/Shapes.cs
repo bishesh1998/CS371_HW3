@@ -7,14 +7,15 @@ using System.Collections;
 
 namespace HW2_Ex1
 {
- 
+    //Shape Container Class
+    //Inheritance of IEnumerable
     class Shapes : IEnumerable
     {
         private Circle[] cirlceArray = new Circle[3];
         private Square[] squareArray = new Square[2];
         private Triangle[] triangleArray = new Triangle[4];
 
-        
+        //IEnumerator interface to return square
         public IEnumerator GetEnumerator()
         {
             foreach (Square S in squareArray)
@@ -23,6 +24,7 @@ namespace HW2_Ex1
             }
         }
  
+        //Default Constructor
         public Shapes()
         {
 

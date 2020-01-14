@@ -1,4 +1,11 @@
-﻿using System;
+﻿//////////////////////////////////////////////////////////////////////////////////
+// HW 3 : EX 03
+// CS371 - Whitworth University
+// Originally outlined by: Bishesh Tuladhar
+// Worked With : Sabin Sapkota & Novel Poudel
+/////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,8 +32,11 @@ namespace HW3_Ex3
             metropolis.addResident(Dexter);
             metropolis.addResident(David);
 
+            metropolis.RegisterWithCity(OnCityEvent); //Running the event of the city
+
             string keep_playing = "Y";
 
+            //Now, tour the city and play the game!
             while (keep_playing == "Y")
             {
                 metropolis.tourResidents();
@@ -34,20 +44,14 @@ namespace HW3_Ex3
                 keep_playing = Console.ReadLine();
             }
 
-            //metropolis.RegisterWithCity(new City.CityHandlers(OnCityEvent2));
-
         }
 
+        // This is the target for for the city event delegates
         public static void OnCityEvent(string msg)
         {
             Console.WriteLine("\n***** Message From City Object *****");
             Console.WriteLine("=> {0}", msg);
             Console.WriteLine("***********************************\n");
-        }
-
-        public static void OnCityEvent2(string msg)
-        {
-            Console.WriteLine("=> {0}", msg.ToUpper());
         }
     }
 }

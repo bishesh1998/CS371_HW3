@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace HW2_Ex1
 {
+    //ComparableShapes Container Class
+    //Inheritance of IEnumerable
     class ComparableShapes : IEnumerable
     {
         private Square[] squareArray = new Square[2];
@@ -22,9 +24,12 @@ namespace HW2_Ex1
             pentagonArray[1] = new Pentagon(50);
         }
 
+        //IEnumerator Interface
         public IEnumerator GetEnumerator()
         {
             int c = 0;
+            
+            //foreach loop to compare all the square in to to the pentagon
             foreach (Square S in squareArray)
             {
                 if (squareArray[c].getparameter() > pentagonArray[c].getparameter())
